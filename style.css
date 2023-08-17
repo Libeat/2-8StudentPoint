@@ -1,40 +1,70 @@
+/* 폰트 및 기본 스타일 */
 body {
-    font-family: Arial, sans-serif;
-    background-color: #F0F0F0;
-  }
+  font-family: 'Arial', sans-serif;
+  line-height: 1.6;
+  color: #d8d8d8;
+  background-color: #1f2023;
+  padding: 30px;
+}
 
+/* 제목 스타일 */
 h1 {
-    text-align: center;
-    margin-top: 40px;
-    font-size: 50px;
- }
+  text-align: center;
+  font-size: 28px;
+  color: #d8d8d8;
+  margin-bottom: 15px;
+}
 
+/* 섹션 제목 스타일 */
+h3 {
+  font-size: 18px;
+  color: #d8d8d8;
+  margin-bottom: 10px;
+}
+
+/* 학생 목록 컨테이너 스타일 */
+#student-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+/* 개별 학생 목록 아이템 스타일 */
 .student-list {
-    border: 1px solid #999;
-    padding: 10px;
-    margin: 20px;
-    border-radius: 10px;
-  }
+  background-color: #33353a;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+  padding: 20px;
+  margin: 10px;
+  width: 340px;
+}
 
 .student-list h2 {
-    margin-bottom: 10px;
-  }
+  font-size: 22px;
+  color: #d8d8d8;
+  margin-bottom: 10px;
+}
 
-.student-list p {
-    font-size: 20px;
-    font-weight: bold;
-  }
+.score {
+  font-weight: bold;
+  color: #d8d8d8;
+}
 
+/* 버튼 스타일 */
 button {
-    font-size: 16px;
-    padding: 5px 10px;
-    border-radius: 5px;
-    background-color: #999;
-    color: #FFF;
-    margin-right: 10px;
-  }
-  
+  border: none;
+  cursor: pointer;
+  background-color: #c442c9;
+  color: #fff;
+  padding: 7px 14px;
+  font-size: 13px;
+  border-radius: 5px;
+  margin: 8px 4px;
+  text-align: center;
+  width: 145px; /* 버튼 폭 통일 */
+  height: 62px; /* 버튼 높이 통일 */
+}
+
 button:hover {
-    cursor: pointer;
-    background-color: #666;
-  }
+  background-color: #35607d;
+}
